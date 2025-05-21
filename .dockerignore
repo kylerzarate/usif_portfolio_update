@@ -1,0 +1,18 @@
+# Ignore Python cache files
+__pycache__
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore config files
+path/to/config.json
+
+# Ignore Dockerfile itself (if not needed in container)
+Dockerfile
